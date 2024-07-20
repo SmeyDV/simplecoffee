@@ -1,0 +1,50 @@
+h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+
+.coffee-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  
+}
+
+.coffee-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0.5em;
+  width: 200px;
+  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coffee-item:hover {
+  transform: scale(1.05);
+}
+
+.coffee-item img {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 5px 5px 0 0;
+  
+}
+
+.coffee-item h3 {
+  margin: 0.5em 0;
+}
+
+.coffee-item p {
+  color: #666;
+  margin-top: auto;  /* Ensure the paragraph stays at the bottom */
+}
+

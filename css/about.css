@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Main Section Styles */
+.about-section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* About Section Styles */
+.about-section h2 {
+  font-size: 2em;
+  color: #d2691e;
+  border-bottom: 2px solid #d2691e;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.about-section h3 {
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.about-section a {
+  color: #d2691e;
+  text-decoration: none;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+}
+
+/* Additional Styles */
+.about-section p:first-of-type {
+  margin-top: 0;
+}
+
+.about-section h3:first-of-type {
+  margin-top: 0;
+}
